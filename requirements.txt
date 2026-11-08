@@ -1,0 +1,5 @@
+numpy
+scipy
+soundfile
+torch       # 학습·변환용. CUDA 버전은 pytorch.org 안내대로 설치
+matplotlib  # 테스트 그림용 (선택)

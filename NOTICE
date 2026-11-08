@@ -1,0 +1,39 @@
+Vintage2Modern
+Copyright 2026 myergodic-wq
+
+This product includes software developed by myergodic-wq and licensed under the
+Apache License, Version 2.0 (see LICENSE).
+
+The released model weights (vintage2modern_v1.pt, distributed separately on
+Hugging Face) are licensed under CC BY-NC 4.0 and are not covered by the
+Apache License.
+
+Attributions
+------------
+
+The model weights were trained on synthetic pairs derived from the following
+recordings:
+
+  Kimiko Ishizaka, "J.S. Bach: The Well-Tempered Clavier, Book 1"
+  (Open Well-Tempered Clavier, https://welltemperedclavier.org/).
+  The project site describes the recording as released into the public
+  domain; the Bandcamp release used here was labelled CC BY 4.0, so it is
+  attributed under that license:
+  https://creativecommons.org/licenses/by/4.0/
+  Changes: segmented, and degraded with a recording-chain simulator.
+
+  Kimiko Ishizaka, "Open Goldberg Variations" (CC0 1.0).
+  Musopen, "Complete Chopin Collection" (CC0 1.0).
+
+The degradation simulator was calibrated with measurements from:
+
+  O. Mikkonen, A. Wright, E. Moliner, V. Valimaki, "Neural Modeling of
+  Magnetic Tape Recorders", DAFx 2023. Dataset licensed under CC BY 4.0,
+  doi:10.5281/zenodo.8026271.
+  Changes: hiss segments, frequency response and wow/flutter were measured
+  from the dataset; the dataset itself is not redistributed.
+
+Recordings from the UCSB Discography of American Historical Recordings
+(https://adp.library.ucsb.edu) were used for evaluation only, under DAHR's
+terms of use. No DAHR audio is part of
+the training data of the released weights, and none is redistributed.
